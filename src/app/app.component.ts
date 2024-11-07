@@ -3,8 +3,8 @@ import { ProductListComponent } from './product-list/product-list.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true, // Configura también AppComponent como standalone
-  imports: [ProductListComponent], // Importa el componente
+  standalone: true, 
+  imports: [ProductListComponent], 
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
