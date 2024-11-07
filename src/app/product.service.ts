@@ -15,6 +15,7 @@ export class ProductService {
       price: 150,
       seller: 'Supermercado A',
       imageUrl: 'https://alberdisa.vteximg.com.br/arquivos/ids/165669-1000-1000/Leche-LS-UAT-Entera-3--Fort-c-Vit-pet-1L.jpg?v=637538264560500000', // Imagen de ejemplo
+      type: 'Lácteos',
     },
     {
       id: 2,
@@ -23,6 +24,7 @@ export class ProductService {
       price: 250,
       seller: 'Supermercado B',
       imageUrl: 'https://masonlineprod.vtexassets.com/arquivos/ids/294220-800-auto?v=638277429765130000&width=800&height=auto&aspect=true', // Imagen de ejemplo
+      type: 'Panadería',
     },
     {
       id: 3,
@@ -31,6 +33,7 @@ export class ProductService {
       price: 450,
       seller: 'Supermercado A',
       imageUrl: 'https://arjosimarprod.vteximg.com.br/arquivos/ids/168282-1000-1000/Manteca-Clasica-La-Serenisima-200-Gr-1-14271.jpg?v=638361777647700000', // Imagen de ejemplo
+      type: 'Lácteos',
     },
     {
       id: 4,
@@ -39,6 +42,7 @@ export class ProductService {
       price: 350,
       seller: 'Supermercado B',
       imageUrl: 'https://arcordiezb2c.vteximg.com.br/arquivos/ids/182703/Huevos-Frescos-Medianos-De-Color-Corave-12-Un-1-18080.jpg?v=638458761694730000', // Imagen de ejemplo
+      type: 'Huevos',
     },
     // Agrega más productos aquí si es necesario...
   ];

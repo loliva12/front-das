@@ -70,4 +70,26 @@
     color: #555;
     margin-top: 8px;
   }
-  
+  .dropdown-menu {
+    text-align: center;
+  }
+  .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  /* Estilos para el título */
+.navbar-brand h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Alineación del menú */
+.navbar-toggler {
+  margin-right: auto;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff;
+  color: #fff;
+}
